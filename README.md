@@ -1,5 +1,4 @@
-# Docker
-Docker commands
+# Docker Container
 
 ### Containerization x Virtualization 
 
@@ -72,6 +71,21 @@ Username: alexandregama
 Registry: https://index.docker.io/v1/
 Labels:
  provider=virtualbox
+```
+
+### Downloading the first Docker image
+
+- We will download images from Docker Registry
+
+```bash
+$ sudo docker pull busybox
+
+511136ea3c5a: Pull complete
+df7546f9f060: Pull complete
+ea13149945cb: Pull complete
+4986bf8c1536: Pull complete
+busybox:latest: The image you are pulling has been verified. Important: image verification is a tech preview feature and should not be relied on to provide security.
+Status: Downloaded newer image for busybox:latest
 ```
 
 ### Docker commands
