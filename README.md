@@ -1,7 +1,7 @@
 # Docker
 Docker commands
 
-##### Containerization x Virtualization 
+### Containerization x Virtualization 
 
 ![](http://www.eweek.com/imagesvr_ce/8781/DockerFacts_3.jpg)
 
