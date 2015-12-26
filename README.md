@@ -5,7 +5,18 @@ Docker commands
 
 ![](http://www.eweek.com/imagesvr_ce/8781/DockerFacts_3.jpg)
 
-#The Docker run#
+### Containerization technologies
+
+- **LXC** (Linux Containers)
+  This is the father of all kinds of containers and it represents an operating-system-level virtualization environment for running multiple isolated Linux system on a single Linux machine
+
+- **OpenVZ**
+  This is OS-level virtualization technology based on the Linux Kernel
+
+- **The FreeBSD jail**
+  This is a mechanism that implement and OS-level virtualization, which lets the administrations partition a FreeBSD-based computer system into several idependent mini-system called *jais*
+
+### Docker commands
 
 #####docker run [OPTIONS] IMAGE[:TAG|@DIGEST] [COMMAND] [ARG...]#####
 
