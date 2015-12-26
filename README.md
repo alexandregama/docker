@@ -42,7 +42,7 @@ Server:
 
 ```bash
 $ docker info
-``
+```
 
 ```bash
 Containers: 5
