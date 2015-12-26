@@ -106,6 +106,13 @@ $ sudo docker pull | grep busybox
 busybox                          latest              fc0db02f3072        2 weeks ago         1.113 MB
 ```
 
+### Running the first Docker container
+
+```bash
+$ sudo docker run busybox echo "Hello Docker"
+
+Hello Docker
+```
 
 
 
