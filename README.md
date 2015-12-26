@@ -84,8 +84,18 @@ $ sudo docker pull busybox
 df7546f9f060: Pull complete
 ea13149945cb: Pull complete
 4986bf8c1536: Pull complete
+
 busybox:latest: The image you are pulling has been verified. Important: image verification is a tech preview feature and should not be relied on to provide security.
 Status: Downloaded newer image for busybox:latest
+```
+
+We can see all images that have been downloaded with the following command:
+
+```bash
+$ docker images
+
+REPOSITORY    TAG     IMAGE ID         CREATED      VIRTUAL SIZE
+busybox       latest  4986bf8c1536     12 weeks ago 2.433 MB
 ```
 
 ### Docker commands
